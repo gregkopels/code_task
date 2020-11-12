@@ -51,7 +51,7 @@ export HOST_UID
 # special chars: '',"",|,&&,||,*,^,[], should all work. Except "$" and "`", if someone knows how, please let me know!).
 # escaping (\) does work on most chars, except double quotes (if someone knows how, please let me know)
 # i.e. works on most cases. For everything else perhaps more useful to upload a script and execute that.
-shell:
+#shell:
 ifeq ($(CMD_ARGUMENTS),)
 	# no command is given, default to shell
 	docker-compose -p $(PROJECT_NAME)_$(HOST_UID) run --rm $(SERVICE_TARGET) sh

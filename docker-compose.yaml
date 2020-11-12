@@ -21,7 +21,7 @@ services:
         - HOST_UID=${HOST_UID:-4000}
         - HOST_USER=${HOST_USER:-nodummy}
     # Run container as a service. Replace with something useful.
-    command: ["tail", "-f", "/dev/null"]
+    #command: ["tail", "-f", "/dev/null"]
     # Copy current (git-) project into container.
-    volumes:
-      - ${PWD:-.}:/home/${HOST_USER}/${PROJECT_NAME}
+    #volumes:
+     # - ${PWD:-.}:/home/${HOST_USER}/${PROJECT_NAME}
