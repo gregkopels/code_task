@@ -7,7 +7,7 @@ RUN apk update \
         bash
 
 FROM scratch as user
-COPY --from=base . .
+#COPY --from=base . .
 
 ARG HOST_UID=${HOST_UID:-4000}
 ARG HOST_USER=${HOST_USER:-nodummy}
