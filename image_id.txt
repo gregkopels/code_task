@@ -1,0 +1,74 @@
+Step 1/9 : FROM alpine as base
+latest: Pulling from library/alpine
+Digest: sha256:c0e9560cda118f9ec63ddefb4a173a2b2a0347082d7dff7dc14272e7841a5b5a
+Status: Downloaded newer image for alpine:latest
+ ---> d6e46aa2470d
+Step 2/9 : RUN apk update     && apk add --no-cache     && apk add python3     && apk add pytest         bash
+ ---> Running in 9241dcdd0a98
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+v3.12.1-24-g9d31f224d7 [http://dl-cdn.alpinelinux.org/alpine/v3.12/main]
+v3.12.1-28-g1917b93b9e [http://dl-cdn.alpinelinux.org/alpine/v3.12/community]
+OK: 12744 distinct packages available
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+OK: 6 MiB in 14 packages
+(1/10) Installing libbz2 (1.0.8-r1)
+(2/10) Installing expat (2.2.9-r1)
+(3/10) Installing libffi (3.3-r2)
+(4/10) Installing gdbm (1.13-r1)
+(5/10) Installing xz-libs (5.2.5-r0)
+(6/10) Installing ncurses-terminfo-base (6.2_p20200523-r0)
+(7/10) Installing ncurses-libs (6.2_p20200523-r0)
+(8/10) Installing readline (8.0.4-r0)
+(9/10) Installing sqlite-libs (3.32.1-r0)
+(10/10) Installing python3 (3.8.5-r0)
+Executing busybox-1.31.1-r19.trigger
+OK: 53 MiB in 24 packages
+(1/14) Installing bash (5.0.17-r0)
+Executing bash-5.0.17-r0.post-install
+(2/14) Installing py3-atomicwrites (1.4.0-r0)
+(3/14) Installing py3-py (1.8.1-r0)
+(4/14) Installing py3-six (1.15.0-r0)
+(5/14) Installing py3-attrs (19.3.0-r1)
+(6/14) Installing py3-more-itertools (8.3.0-r0)
+(7/14) Installing py3-pluggy (0.13.1-r0)
+(8/14) Installing py3-wcwidth (0.1.9-r0)
+(9/14) Installing py3-ordered-set (4.0.1-r0)
+(10/14) Installing py3-appdirs (1.4.4-r1)
+(11/14) Installing py3-parsing (2.4.7-r0)
+(12/14) Installing py3-packaging (20.4-r0)
+(13/14) Installing py3-setuptools (47.0.0-r0)
+(14/14) Installing py3-pytest (5.4.2-r0)
+Executing busybox-1.31.1-r19.trigger
+OK: 60 MiB in 38 packages
+Removing intermediate container 9241dcdd0a98
+ ---> 456bf1737096
+
+Step 3/9 : FROM scratch as user
+ ---> 
+Step 4/9 : COPY --from=base . .
+ ---> eaa653c185c7
+Step 5/9 : ARG HOST_UID=${HOST_UID:-4000}
+ ---> Running in 62ff1db95622
+Removing intermediate container 62ff1db95622
+ ---> ba5ceb2f2a04
+Step 6/9 : ARG HOST_USER=${HOST_USER:-nodummy}
+ ---> Running in 1f25a0e9eb6f
+Removing intermediate container 1f25a0e9eb6f
+ ---> 6c6d72b2db94
+Step 7/9 : RUN [ "${HOST_USER}" == "root" ] ||     (adduser -h /home/${HOST_USER} -D -u ${HOST_UID} ${HOST_USER}     && chown -R "${HOST_UID}:${HOST_UID}" /home/${HOST_USER})
+ ---> Running in a601e0b9dcd1
+Removing intermediate container a601e0b9dcd1
+ ---> 83046aab231a
+Step 8/9 : USER ${HOST_USER}
+ ---> Running in f1ab7f8278f1
+Removing intermediate container f1ab7f8278f1
+ ---> b6a9f1422233
+Step 9/9 : WORKDIR /home/${HOST_USER}
+ ---> Running in 65da05aa2f54
+Removing intermediate container 65da05aa2f54
+ ---> b5172e5d95ca
+
+Successfully built b5172e5d95ca
+Successfully tagged code_task:gkopels

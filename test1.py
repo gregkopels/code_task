@@ -12,14 +12,14 @@ class TestClass:
         assert 'greg' in x
 
     def test_two(self):
-        hostname = "8.8.8.8"
-        response = os.system("ping -c 1 " + hostname)
+        file = 'index.html'
+        url = "www.google.com"
+        wget = os.system("wget " + url)
+
         # and then check the response...
-        if response == 0:
-            print("Ping is reachable to {}".format(hostname))
+        if os.path.isfile(file) == True:
+            print("wget captured {}".format(url))
             assert 1 == 1
         else:
-            print("Ping is not reachable to {}".format(hostname))
+            print("wget did not capture {}".format(url))
             assert 1 == 0
-
-
