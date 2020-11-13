@@ -28,3 +28,8 @@ rebuild:
 test:
 	# here it is useful to add your own customised tests
 	docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest test1.py
+
+clean:
+	# clean all that is not actively used
+	docker-compose kill
+	docker-compose rm -f
