@@ -4,10 +4,13 @@ import os.path
 import re
 import sys
 
+file = 'messages'
+pattern = 'error'
+output_format = '-c'
+
 def check_logs(log_file):
     num_line = 0
     start_pos = ""
-    file_name = 'wifi.log'
     parser = argparse.ArgumentParser()
     parser.add_argument('arg1', help="Enter the text to find in log")
     args = parser.parse_args()
@@ -19,7 +22,6 @@ def check_logs(log_file):
             num_line += 1
             if match:
                 print(file_name + ":" + str(num_line) + ":" + '\033[44;33m{}\033[m'.format(match.group()))
-
         else:
             if match != args.arg1:
                 print('\033[44;33m{}\033[m'.format(args.arg1) + ' Was not found')
@@ -28,8 +30,22 @@ def check_logs(log_file):
         print("\n* File {} doesnt exist : (Please check and try again.)\n".format(log_file))
         sys.exit()
 
+    def get_args():
+        parser = argparse.ArgumentParser()
+        parser.add_argument('arg1', help="Enter the text to find in log")
+        args = parser.parse_args()
+
+def get_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('arg1', help="Enter the text to find in log")
+    args = parser.parse_args()
+
+
 def main():
-    log_file = check_logs('/var/log/wifi.log')
+    get_arguments
+    log_file = check_logs('messages')
+
+
 
 if __name__ == "__main__":
     main()
