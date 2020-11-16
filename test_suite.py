@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+"""
+__author__      = "Greg Kopels"
+This is a pytest class performing 3 test cases.
+1. Ping to a remote server
+2. SSH connectivity to remote server
+3. Verifies google ports 80 and 443 are reachable
+docker run -it --rm --privileged -v `pwd`:`pwd` -w `pwd` tester pytest test_suite.py
+"""
 from modules import Device
 import paramiko
 import subprocess

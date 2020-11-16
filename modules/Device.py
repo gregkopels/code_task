@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+"""
+__author__      = "Greg Kopels"
+This class forms an SSH connection using Paramiko.
+"""
 import paramiko
 import time
 
