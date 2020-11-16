@@ -1,4 +1,283 @@
-Nov 14 11:53:14 jh2 dnf[8451]: error Docker CE Stable - x86_64                        88 kB/s | 3.5 kB     00:00
-Nov 14 11:53:14 jh2 dnf[8451]: Extra Packages for Enterprise Linux Modular 8 -  86 kB/s |  33 kB     00:00
-Nov 14 11:53:14 jh2 dnf[8451]: Extra Packages for Enterprise Linux 8 - x86_64   51 kB/s |  20 kB     00:00
-Nov 14 11:53:15 jh2 error dnf[8451]: error Metadata cache created.
+Nov 15 03:39:01 jh2 rsyslogd[2030]: [origin software="rsyslogd" swVersion="8.37.0-13.el8" x-pid="2030" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Nov 15 04:04:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 04:04:09 jh2 dnf[16976]: Metadata cache refreshed recently.
+Nov 15 04:04:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 05:05:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 05:05:09 jh2 dnf[17505]: Metadata cache refreshed recently.
+Nov 15 05:05:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 06:06:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 06:06:10 jh2 dnf[18033]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov 15 06:06:10 jh2 dnf[18033]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Nov 15 06:06:10 jh2 dnf[18033]: CentOS-8 - Extras                               7.3 kB/s | 1.5 kB     00:00
+Nov 15 06:06:10 jh2 dnf[18033]: Docker CE Stable - x86_64                        88 kB/s | 3.5 kB     00:00
+Nov 15 06:06:10 jh2 dnf[18033]: Extra Packages for Enterprise Linux Modular 8 -  87 kB/s |  32 kB     00:00
+Nov 15 06:06:11 jh2 dnf[18033]: Extra Packages for Enterprise Linux 8 - x86_64   20 kB/s | 6.4 kB     00:00
+Nov 15 06:06:11 jh2 dnf[18033]: Extra Packages for Enterprise Linux 8 - x86_64   27 MB/s | 8.3 MB     00:00
+Nov 15 06:06:11 jh2 dnf[18033]: Metadata cache created.
+Nov 15 06:06:12 jh2 systemd[1]: Started dnf makecache.
+Nov 15 07:07:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 07:07:09 jh2 dnf[18566]: Metadata cache refreshed recently.
+Nov 15 07:07:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 08:08:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 08:08:09 jh2 dnf[19087]: Metadata cache refreshed recently.
+Nov 15 08:08:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 09:09:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 09:09:10 jh2 dnf[19605]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Nov 15 09:09:10 jh2 dnf[19605]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov 15 09:09:10 jh2 dnf[19605]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Nov 15 09:09:10 jh2 dnf[19605]: Docker CE Stable - x86_64                        81 kB/s | 3.5 kB     00:00
+Nov 15 09:09:11 jh2 dnf[19605]: Extra Packages for Enterprise Linux Modular 8 -  84 kB/s |  32 kB     00:00
+Nov 15 09:09:11 jh2 dnf[19605]: Extra Packages for Enterprise Linux 8 - x86_64   31 kB/s |  13 kB     00:00
+Nov 15 09:09:12 jh2 dnf[19605]: Extra Packages for Enterprise Linux 8 - x86_64   13 MB/s | 8.3 MB     00:00
+Nov 15 09:09:15 jh2 dnf[19605]: Metadata cache created.
+Nov 15 09:09:15 jh2 systemd[1]: Started dnf makecache.
+Nov 15 10:10:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 10:10:09 jh2 dnf[20139]: Metadata cache refreshed recently.
+Nov 15 10:10:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 11:11:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 11:11:09 jh2 dnf[20657]: Metadata cache refreshed recently.
+Nov 15 11:11:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 12:12:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 12:12:10 jh2 dnf[21177]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov 15 12:12:10 jh2 dnf[21177]: CentOS-8 - Base                                  47 kB/s | 3.9 kB     00:00
+Nov 15 12:12:12 jh2 dnf[21177]: CentOS-8 - Extras                               591  B/s | 1.5 kB     00:02
+Nov 15 12:12:12 jh2 dnf[21177]: Docker CE Stable - x86_64                        89 kB/s | 3.5 kB     00:00
+Nov 15 12:12:13 jh2 dnf[21177]: Extra Packages for Enterprise Linux Modular 8 -  89 kB/s |  32 kB     00:00
+Nov 15 12:12:13 jh2 dnf[21177]: Extra Packages for Enterprise Linux 8 - x86_64   54 kB/s |  20 kB     00:00
+Nov 15 12:12:13 jh2 dnf[21177]: Metadata cache created.
+Nov 15 12:12:14 jh2 systemd[1]: Started dnf makecache.
+Nov 15 13:13:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 13:13:09 jh2 dnf[21705]: Metadata cache refreshed recently.
+Nov 15 13:13:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 14:14:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 14:14:09 jh2 dnf[22226]: Metadata cache refreshed recently.
+Nov 15 14:14:10 jh2 systemd[1]: Started dnf makecache.
+Nov 15 15:15:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 15:15:10 jh2 dnf[22745]: CentOS-8 - AppStream                             20 kB/s | 4.3 kB     00:00
+Nov 15 15:15:10 jh2 dnf[22745]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov 15 15:15:10 jh2 dnf[22745]: CentOS-8 - Extras                                35 kB/s | 1.5 kB     00:00
+Nov 15 15:15:10 jh2 dnf[22745]: Docker CE Stable - x86_64                        88 kB/s | 3.5 kB     00:00
+Nov 15 15:15:10 jh2 dnf[22745]: Extra Packages for Enterprise Linux Modular 8 -  90 kB/s |  32 kB     00:00
+Nov 15 15:15:11 jh2 dnf[22745]: Extra Packages for Enterprise Linux 8 - x86_64   65 kB/s |  23 kB     00:00
+Nov 15 15:15:11 jh2 dnf[22745]: Metadata cache created.
+Nov 15 15:15:11 jh2 systemd[1]: Started dnf makecache.
+Nov 15 16:16:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 16:16:09 jh2 dnf[23274]: Metadata cache refreshed recently.
+Nov 15 16:16:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 17:17:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 17:17:09 jh2 dnf[23804]: Metadata cache refreshed recently.
+Nov 15 17:17:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 18:18:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 18:18:10 jh2 dnf[24326]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov 15 18:18:10 jh2 dnf[24326]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Nov 15 18:18:10 jh2 dnf[24326]: CentOS-8 - Extras                               7.2 kB/s | 1.5 kB     00:00
+Nov 15 18:18:10 jh2 dnf[24326]: Docker CE Stable - x86_64                        86 kB/s | 3.5 kB     00:00
+Nov 15 18:18:11 jh2 dnf[24326]: Extra Packages for Enterprise Linux Modular 8 -  50 kB/s |  32 kB     00:00
+Nov 15 18:18:11 jh2 dnf[24326]: Extra Packages for Enterprise Linux 8 - x86_64  265 kB/s |  24 kB     00:00
+Nov 15 18:18:11 jh2 dnf[24326]: Metadata cache created.
+Nov 15 18:18:11 jh2 systemd[1]: Started dnf makecache.
+Nov 15 19:19:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 19:19:09 jh2 dnf[24848]: Metadata cache refreshed recently.
+Nov 15 19:19:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 20:20:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 20:20:09 jh2 dnf[25366]: Metadata cache refreshed recently.
+Nov 15 20:20:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 20:51:09 jh2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov 15 20:51:09 jh2 systemd-tmpfiles[25628]: [/usr/lib/tmpfiles.d/mdadm.conf:1] Line references path below legacy directory /var/run/, updating /var/run/mdadm → /run/mdadm; please update the tmpfiles.d/ drop-in file accordingly.
+Nov 15 20:51:09 jh2 systemd-tmpfiles[25628]: [/usr/lib/tmpfiles.d/radvd.conf:1] Line references path below legacy directory /var/run/, updating /var/run/radvd → /run/radvd; please update the tmpfiles.d/ drop-in file accordingly.
+Nov 15 20:51:09 jh2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov 15 21:21:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 21:21:09 jh2 dnf[25894]: CentOS-8 - AppStream                             92 kB/s | 4.3 kB     00:00
+Nov 15 21:21:09 jh2 dnf[25894]: CentOS-8 - Base                                  76 kB/s | 3.9 kB     00:00
+Nov 15 21:21:10 jh2 dnf[25894]: CentOS-8 - Extras                               6.5 kB/s | 1.5 kB     00:00
+Nov 15 21:21:10 jh2 dnf[25894]: Docker CE Stable - x86_64                        91 kB/s | 3.5 kB     00:00
+Nov 15 21:21:10 jh2 dnf[25894]: Extra Packages for Enterprise Linux Modular 8 -  82 kB/s |  32 kB     00:00
+Nov 15 21:21:11 jh2 dnf[25894]: Extra Packages for Enterprise Linux 8 - x86_64   80 kB/s |  28 kB     00:00
+Nov 15 21:21:11 jh2 dnf[25894]: Metadata cache created.
+Nov 15 21:21:11 jh2 systemd[1]: Started dnf makecache.
+Nov 15 22:22:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 22:22:09 jh2 dnf[26424]: Metadata cache refreshed recently.
+Nov 15 22:22:09 jh2 systemd[1]: Started dnf makecache.
+Nov 15 23:23:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 15 23:23:09 jh2 dnf[26943]: Metadata cache refreshed recently.
+Nov 15 23:23:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 00:00:09 jh2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov 16 00:00:09 jh2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov 16 00:24:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 00:24:10 jh2 dnf[27469]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Nov 16 00:24:10 jh2 dnf[27469]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov 16 00:24:11 jh2 dnf[27469]: CentOS-8 - Extras                               1.7 kB/s | 1.5 kB     00:00
+Nov 16 00:24:11 jh2 dnf[27469]: Docker CE Stable - x86_64                        67 kB/s | 3.5 kB     00:00
+Nov 16 00:24:11 jh2 dnf[27469]: Extra Packages for Enterprise Linux Modular 8 - 282 kB/s |  32 kB     00:00
+Nov 16 00:24:11 jh2 dnf[27469]: Extra Packages for Enterprise Linux 8 - x86_64   89 kB/s |  32 kB     00:00
+Nov 16 00:24:12 jh2 dnf[27469]: Metadata cache created.
+Nov 16 00:24:12 jh2 systemd[1]: Started dnf makecache.
+Nov 16 01:25:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 01:25:09 jh2 dnf[28000]: Metadata cache refreshed recently.
+Nov 16 01:25:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 02:26:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 02:26:09 jh2 dnf[28521]: Metadata cache refreshed recently.
+Nov 16 02:26:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 03:27:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 03:27:10 jh2 dnf[29053]: CentOS-8 - AppStream                            111 kB/s | 4.3 kB     00:00
+Nov 16 03:27:11 jh2 dnf[29053]: CentOS-8 - Base                                 3.8 kB/s | 3.9 kB     00:01
+Nov 16 03:27:11 jh2 dnf[29053]: CentOS-8 - Extras                               7.2 kB/s | 1.5 kB     00:00
+Nov 16 03:27:11 jh2 dnf[29053]: Docker CE Stable - x86_64                        77 kB/s | 3.5 kB     00:00
+Nov 16 03:27:11 jh2 dnf[29053]: Extra Packages for Enterprise Linux Modular 8 -  91 kB/s |  32 kB     00:00
+Nov 16 03:27:12 jh2 dnf[29053]: Extra Packages for Enterprise Linux 8 - x86_64   16 kB/s |  10 kB     00:00
+Nov 16 03:27:13 jh2 dnf[29053]: Extra Packages for Enterprise Linux 8 - x86_64   11 MB/s | 8.3 MB     00:00
+Nov 16 03:27:13 jh2 dnf[29053]: Metadata cache created.
+Nov 16 03:27:13 jh2 systemd[1]: Started dnf makecache.
+Nov 16 04:28:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 04:28:09 jh2 dnf[29600]: Metadata cache refreshed recently.
+Nov 16 04:28:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 05:29:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 05:29:09 jh2 dnf[30128]: Metadata cache refreshed recently.
+Nov 16 05:29:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 06:30:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 06:30:10 jh2 dnf[30659]: CentOS-8 - AppStream                            111 kB/s | 4.3 kB     00:00
+Nov 16 06:30:10 jh2 dnf[30659]: CentOS-8 - Base                                 4.6 kB/s | 3.9 kB     00:00
+Nov 16 06:30:11 jh2 dnf[30659]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Nov 16 06:30:11 jh2 dnf[30659]: Docker CE Stable - x86_64                        85 kB/s | 3.5 kB     00:00
+Nov 16 06:30:11 jh2 dnf[30659]: Extra Packages for Enterprise Linux Modular 8 -  89 kB/s |  32 kB     00:00
+Nov 16 06:30:11 jh2 dnf[30659]: Extra Packages for Enterprise Linux 8 - x86_64   34 kB/s |  10 kB     00:00
+Nov 16 06:30:12 jh2 dnf[30659]: Extra Packages for Enterprise Linux 8 - x86_64   14 MB/s | 8.3 MB     00:00
+Nov 16 06:30:12 jh2 dnf[30659]: Metadata cache created.
+Nov 16 06:30:12 jh2 systemd[1]: Started dnf makecache.
+Nov 16 07:31:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 07:31:09 jh2 dnf[31202]: Metadata cache refreshed recently.
+Nov 16 07:31:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 08:32:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 08:32:09 jh2 dnf[31732]: Metadata cache refreshed recently.
+Nov 16 08:32:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 09:33:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 09:33:13 jh2 dnf[32262]: CentOS-8 - AppStream                            1.2 kB/s | 4.3 kB     00:03
+Nov 16 09:33:13 jh2 dnf[32262]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Nov 16 09:33:13 jh2 dnf[32262]: CentOS-8 - Extras                               6.5 kB/s | 1.5 kB     00:00
+Nov 16 09:33:13 jh2 dnf[32262]: Docker CE Stable - x86_64                        85 kB/s | 3.5 kB     00:00
+Nov 16 09:33:14 jh2 dnf[32262]: Extra Packages for Enterprise Linux Modular 8 -  88 kB/s |  32 kB     00:00
+Nov 16 09:33:14 jh2 dnf[32262]: Extra Packages for Enterprise Linux 8 - x86_64   25 kB/s |  16 kB     00:00
+Nov 16 09:33:15 jh2 dnf[32262]: Extra Packages for Enterprise Linux 8 - x86_64   14 MB/s | 8.3 MB     00:00
+Nov 16 09:33:18 jh2 dnf[32262]: Metadata cache created.
+Nov 16 09:33:18 jh2 systemd[1]: Started dnf makecache.
+Nov 16 10:34:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 10:34:09 jh2 dnf[327]: Metadata cache refreshed recently.
+Nov 16 10:34:09 jh2 systemd[1]: Started dnf makecache.
+Nov 16 10:35:49 jh2 systemd[1]: Started /run/user/0 mount wrapper.
+Nov 16 10:35:49 jh2 systemd[1]: Created slice User Slice of UID 0.
+Nov 16 10:35:49 jh2 systemd[1]: Starting User Manager for UID 0...
+Nov 16 10:35:49 jh2 systemd-logind[1917]: New session 618 of user root.
+Nov 16 10:35:49 jh2 systemd[1]: Started Session 618 of user root.
+Nov 16 10:35:49 jh2 systemd[353]: Reached target Timers.
+Nov 16 10:35:49 jh2 systemd[353]: Listening on Sound System.
+Nov 16 10:35:49 jh2 systemd[353]: Reached target Paths.
+Nov 16 10:35:49 jh2 systemd[353]: Starting D-Bus User Message Bus Socket.
+Nov 16 10:35:49 jh2 systemd[353]: Listening on Multimedia System.
+Nov 16 10:35:49 jh2 systemd[353]: Listening on D-Bus User Message Bus Socket.
+Nov 16 10:35:49 jh2 systemd[353]: Reached target Sockets.
+Nov 16 10:35:49 jh2 systemd[353]: Reached target Basic System.
+Nov 16 10:35:49 jh2 systemd[1]: Started User Manager for UID 0.
+Nov 16 10:35:49 jh2 systemd[353]: Starting Sound Service...
+Nov 16 10:35:49 jh2 pulseaudio[372]: W: [pulseaudio] main.c: This program is not intended to be run as root (unless --system is specified).
+Nov 16 10:35:49 jh2 dbus-daemon[1837]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.14404' (uid=0 pid=372 comm="/usr/bin/pulseaudio --daemonize=no " label="unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023")
+Nov 16 10:35:49 jh2 systemd[353]: Started D-Bus User Message Bus.
+Nov 16 10:35:49 jh2 systemd[353]: Started Sound Service.
+Nov 16 10:35:49 jh2 systemd[353]: Reached target Default.
+Nov 16 10:35:49 jh2 systemd[353]: Startup finished in 85ms.
+Nov 16 10:36:06 jh2 systemd-logind[1917]: Session 618 logged out. Waiting for processes to exit.
+Nov 16 10:36:06 jh2 systemd-logind[1917]: Removed session 618.
+Nov 16 10:36:06 jh2 systemd[1]: user-runtime-dir@0.service: Unit not needed anymore. Stopping.
+Nov 16 10:36:06 jh2 systemd[1]: Stopping User Manager for UID 0...
+Nov 16 10:36:06 jh2 systemd[353]: Stopped target Default.
+Nov 16 10:36:06 jh2 systemd[353]: Stopping D-Bus User Message Bus...
+Nov 16 10:36:06 jh2 systemd[353]: Stopped D-Bus User Message Bus.
+Nov 16 10:36:06 jh2 systemd[353]: Stopped target Basic System.
+Nov 16 10:36:06 jh2 systemd[353]: Stopped target Paths.
+Nov 16 10:36:06 jh2 systemd[353]: Stopped target Timers.
+Nov 16 10:36:06 jh2 systemd[353]: Stopped target Sockets.
+Nov 16 10:36:06 jh2 systemd[353]: Closed Multimedia System.
+Nov 16 10:36:06 jh2 systemd[353]: Closed Sound System.
+Nov 16 10:36:06 jh2 systemd[353]: Closed D-Bus User Message Bus Socket.
+Nov 16 10:36:06 jh2 systemd[353]: Reached target Shutdown.
+Nov 16 10:36:06 jh2 systemd[353]: Starting Exit the Session...
+Nov 16 10:36:06 jh2 systemd[1]: user-runtime-dir@0.service: Unit not needed anymore. Stopping.
+Nov 16 10:36:06 jh2 systemd[1]: Stopped User Manager for UID 0.
+Nov 16 10:36:06 jh2 systemd[1]: user-runtime-dir@0.service: Unit not needed anymore. Stopping.
+Nov 16 10:36:06 jh2 systemd[1]: Stopping /run/user/0 mount wrapper...
+Nov 16 10:36:06 jh2 systemd[1]: Removed slice User Slice of UID 0.
+Nov 16 10:36:06 jh2 systemd[1]: Stopped /run/user/0 mount wrapper.
+Nov 16 10:36:14 jh2 dbus-daemon[1837]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 16 10:46:36 jh2 systemd[1]: Created slice User Slice of UID 0.
+Nov 16 10:46:36 jh2 systemd[1]: Started /run/user/0 mount wrapper.
+Nov 16 10:46:36 jh2 systemd[1]: Starting User Manager for UID 0...
+Nov 16 10:46:36 jh2 systemd[1]: Started Session 620 of user root.
+Nov 16 10:46:36 jh2 systemd-logind[1917]: New session 620 of user root.
+Nov 16 10:46:36 jh2 systemd[610]: Listening on Sound System.
+Nov 16 10:46:36 jh2 systemd[610]: Reached target Paths.
+Nov 16 10:46:36 jh2 systemd[610]: Starting D-Bus User Message Bus Socket.
+Nov 16 10:46:36 jh2 systemd[610]: Reached target Timers.
+Nov 16 10:46:36 jh2 systemd[610]: Listening on Multimedia System.
+Nov 16 10:46:36 jh2 systemd[610]: Listening on D-Bus User Message Bus Socket.
+Nov 16 10:46:36 jh2 systemd[610]: Reached target Sockets.
+Nov 16 10:46:36 jh2 systemd[610]: Reached target Basic System.
+Nov 16 10:46:36 jh2 systemd[1]: Started User Manager for UID 0.
+Nov 16 10:46:36 jh2 systemd[610]: Starting Sound Service...
+Nov 16 10:46:37 jh2 pulseaudio[632]: W: [pulseaudio] main.c: This program is not intended to be run as root (unless --system is specified).
+Nov 16 10:46:37 jh2 dbus-daemon[1837]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.14435' (uid=0 pid=632 comm="/usr/bin/pulseaudio --daemonize=no " label="unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023")
+Nov 16 10:46:37 jh2 systemd[610]: Started D-Bus User Message Bus.
+Nov 16 10:46:37 jh2 systemd[610]: Started Sound Service.
+Nov 16 10:46:37 jh2 systemd[610]: Reached target Default.
+Nov 16 10:46:37 jh2 systemd[610]: Startup finished in 98ms.
+Nov 16 10:47:02 jh2 pulseaudio[632]: E: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Nov 16 10:47:02 jh2 dbus-daemon[1837]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov 16 11:34:57 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 11:34:57 jh2 systemd-logind[1917]: Session 620 logged out. Waiting for processes to exit.
+Nov 16 11:34:57 jh2 systemd-logind[1917]: Removed session 620.
+Nov 16 11:34:57 jh2 systemd[1]: user-runtime-dir@0.service: Unit not needed anymore. Stopping.
+Nov 16 11:34:57 jh2 systemd[1]: Stopping User Manager for UID 0...
+Nov 16 11:34:57 jh2 systemd[610]: Stopped target Default.
+Nov 16 11:34:57 jh2 systemd[610]: Stopping D-Bus User Message Bus...
+Nov 16 11:34:57 jh2 systemd[610]: Stopped D-Bus User Message Bus.
+Nov 16 11:34:57 jh2 systemd[610]: Stopped target Basic System.
+Nov 16 11:34:57 jh2 systemd[610]: Stopped target Timers.
+Nov 16 11:34:57 jh2 systemd[610]: Stopped target Paths.
+Nov 16 11:34:57 jh2 systemd[610]: Stopped target Sockets.
+Nov 16 11:34:57 jh2 systemd[610]: Closed Sound System.
+Nov 16 11:34:57 jh2 systemd[610]: Closed Multimedia System.
+Nov 16 11:34:57 jh2 systemd[610]: Closed D-Bus User Message Bus Socket.
+Nov 16 11:34:57 jh2 systemd[610]: Reached target Shutdown.
+Nov 16 11:34:57 jh2 systemd[610]: Starting Exit the Session...
+Nov 16 11:34:57 jh2 systemd[1]: user-runtime-dir@0.service: Unit not needed anymore. Stopping.
+Nov 16 11:34:57 jh2 systemd[1]: Stopped User Manager for UID 0.
+Nov 16 11:34:57 jh2 systemd[1]: user-runtime-dir@0.service: Unit not needed anymore. Stopping.
+Nov 16 11:34:57 jh2 systemd[1]: Removed slice User Slice of UID 0.
+Nov 16 11:34:57 jh2 systemd[1]: Stopping /run/user/0 mount wrapper...
+Nov 16 11:34:57 jh2 systemd[1]: Stopped /run/user/0 mount wrapper.
+Nov 16 11:34:57 jh2 dnf[1085]: Metadata cache refreshed recently.
+Nov 16 11:34:57 jh2 systemd[1]: Started dnf makecache.
+Nov 16 12:35:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 12:35:12 jh2 dnf[1651]: CentOS-8 - AppStream                            1.5 kB/s | 4.3 kB     00:02
+Nov 16 12:35:13 jh2 dnf[1651]: CentOS-8 - Base                                 6.9 kB/s | 3.9 kB     00:00
+Nov 16 12:35:13 jh2 dnf[1651]: CentOS-8 - Extras                                19 kB/s | 1.5 kB     00:00
+Nov 16 12:35:13 jh2 dnf[1651]: Docker CE Stable - x86_64                        86 kB/s | 3.5 kB     00:00
+Nov 16 12:35:13 jh2 dnf[1651]: Extra Packages for Enterprise Linux Modular 8 -  75 kB/s |  32 kB     00:00
+Nov 16 12:35:14 jh2 dnf[1651]: Extra Packages for Enterprise Linux 8 - x86_64   44 kB/s |  17 kB     00:00
+Nov 16 12:35:14 jh2 dnf[1651]: Metadata cache created.
+Nov 16 12:35:14 jh2 systemd[1]: Started dnf makecache.
+Nov 16 13:36:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 13:36:09 jh2 dnf[2287]: Metadata cache refreshed recently.
+Nov 16 13:36:10 jh2 systemd[1]: Started dnf makecache.
+Nov 16 14:37:09 jh2 systemd[1]: Starting dnf makecache...
+Nov 16 14:37:09 jh2 dnf[2850]: Metadata cache refreshed recently.
+Nov 16 14:37:10 jh2 systemd[1]: Started dnf makecache.
+Nov 16 15:07:44 jh2 systemd[1]: Started /run/user/0 mount wrapper.
+Nov 16 15:07:44 jh2 systemd[1]: Created slice User Slice of UID 0.
+Nov 16 15:07:44 jh2 systemd[1]: Starting User Manager for UID 0...
+Nov 16 15:07:44 jh2 systemd[1]: Started Session 622 of user root.
+Nov 16 15:07:44 jh2 systemd-logind[1917]: New session 622 of user root.
+Nov 16 15:07:44 jh2 systemd[3248]: Starting D-Bus User Message Bus Socket.
+Nov 16 15:07:44 jh2 systemd[3248]: Reached target Paths.
+Nov 16 15:07:44 jh2 systemd[3248]: Listening on Multimedia System.
+Nov 16 15:07:44 jh2 systemd[3248]: Listening on Sound System.
+Nov 16 15:07:44 jh2 systemd[3248]: Reached target Timers.
+Nov 16 15:07:44 jh2 systemd[3248]: Listening on D-Bus User Message Bus Soc
