@@ -2,7 +2,7 @@
 This repository holds two parts of the requested assignment.
 # Part I
 1. Python script which searchs a file with a regex pattern. 
-2. Arguments were added to the commandline to change the output.
+2. Arguments were added to the command line to change the output.
   - -c/--color highlights the pattern in the line
   - -m/--machine prints the output in a machine readable format
 # Run Command 
