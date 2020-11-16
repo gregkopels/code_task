@@ -1,20 +1,23 @@
 # code_task
 This repository holds two parts of the requested assignment.
+# Part I
 1. Python script which searchs a file with a regex pattern. 
 2. Arguments were added to the commandline to change the output.
   - -c/--color highlights the pattern in the line
   - -m/--machine prints the output in a machine readable format
-# Run Command for main script
+# Run Command 
 1. python3 ind_matched_lines.py <file> <regex> <optional argumentt -c, -m and -h>
   - I included a /var/log/message file called file. You can run the script on that or any file of your choice.
-3. Makefile and Dockerfile are used to install an Alpine container
-4. This container uses Pytest to run a series of test cases.
+# Part 2
+ This part creates a container and runs tests using pytest
+1. Makefile and Dockerfile are used to install an Alpine container
+2. This container uses Pytest to run a series of test cases.
  - Ping to google.com
  - Ping to AWS linux server
  - Verification of SSH connectivity to the AWS server
-5. Ability to run test case with Make
-6. Ability to run test cases from command line
-7. Ability to run test cases with Bash script
+3. Ability to run test case with Make
+4. Ability to run test cases from command line
+5. Ability to run test cases with Bash script
 # Procedure
 1. Clone repository
 git clone https://github.com/gregkopels/code_task.git
