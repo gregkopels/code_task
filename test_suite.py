@@ -1,5 +1,4 @@
-import device
-from device import device
+from modules import Device
 import paramiko
 import subprocess
 import re
@@ -22,7 +21,7 @@ class TestClass:
             print('The Server is not reachable')
 
     def test_two(self):
-        server = device(**server_info)
+        server = Device.Device(**server_info)
         server.connect()
         if server.client.get_transport() == True:
             assert 1 == 1

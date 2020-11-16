@@ -1,4 +1,5 @@
-FROM python:3.7-alpine3.9 as base
+#FROM python:3.7-alpine3.9 as base
+FROM alpine as base
 
 FROM scratch as user
 COPY --from=base . .

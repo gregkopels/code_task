@@ -1,10 +1,9 @@
-
 import paramiko
 import time
 
 
 class Device:
-    def __init__(self, hostname, port, username, pkey, *args):
+    def __init__(self, hostname, port, username, pkey):
         self.hostname = hostname
         self.port = port
         self.username = username
