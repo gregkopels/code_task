@@ -7,7 +7,7 @@ This repository holds two parts of the requested assignment.
   - -m/--machine prints the output in a machine readable format
 # Run Command 
 1. python3 find_matched_lines.py <file_name> <regex_pattern> <optional argumentt -c, -m and -h>
-  - I included a /var/log/message file called file. You can run the script on that or any file of your choice.
+  - I included a /var/log/message file which can be used to run the script but any ascii file will work.
 # Part 2
  This part creates a container and runs tests using pytest
 1. Makefile and Dockerfile are used to install an Alpine container
