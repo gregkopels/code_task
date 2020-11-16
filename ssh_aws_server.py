@@ -1,5 +1,5 @@
 import device
-from device import device
+from modules import Device
 import paramiko
 import pytest
 
@@ -9,7 +9,7 @@ pkey_default = paramiko.RSAKey.from_private_key_file('linux-1-key.pem')
 server_info = {'hostname': ip, 'port': '22', 'username': 'ec2-user', 'pkey': pkey_default}
 
 def main():
-    server = device(**server_info)
+    server = Device(**server_info)
     server.connect()
     commands_output = server.send_command('date')
     print(commands_output)
