@@ -1,4 +1,3 @@
-import device
 from modules import Device
 import paramiko
 import pytest
