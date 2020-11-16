@@ -6,9 +6,9 @@ This repository holds two parts of the requested assignment.
   - -m/--machine prints the output in a machine readable format
 3. Makefile and Dockerfile are used to install an Alpine container
 4. This container uses Pytest to run a series of test cases.
-  a. Ping to google.com
-  b. Ping to AWS linux server
-  c. Verification of SSH connectivity to the AWS server
+ a. Ping to google.com
+ b. Ping to AWS linux server
+ c. Verification of SSH connectivity to the AWS server
 5. Ability to run test case with Make
 6. Ability to run test cases from command line
 7. Ability to run test cases with Bash script
