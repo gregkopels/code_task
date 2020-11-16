@@ -66,7 +66,7 @@ class FileParser:
             #print(file, match_line.line_num, self.get_positions(match_line.patterns_pos))
 
     def print_matched_lines(self):
-        # Separates the print output according to argument
+        # Separates the print output according to argument from command line
         if self.output_format == 'standard':
             self.print_standard()
         elif self.output_format == 'color':
@@ -75,6 +75,7 @@ class FileParser:
             self.print_machine()
 
     def get_positions(self, positions):
+        # Locates the starting position for occurrence in the line
         pos_str = ''
         for pos in positions:
             pos_str = pos_str + str(pos['start']) + ' '
