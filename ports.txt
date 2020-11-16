@@ -1,1 +1,20 @@
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-11-16 09:49 UTC
+Nmap scan report for google.com (216.58.205.206)
+Host is up (0.0034s latency).
+Other addresses for google.com (not scanned): 2a00:1450:4006:807::200e
+rDNS record for 216.58.205.206: mrs09s09-in-f14.1e100.net
+Not shown: 989 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+111/tcp  closed rpcbind
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+443/tcp  open   https
+445/tcp  closed microsoft-ds
+593/tcp  closed http-rpc-epmap
+1433/tcp closed ms-sql-s
+1900/tcp closed upnp
+4444/tcp closed krb524
+6346/tcp closed gnutella
+
+Nmap done: 1 IP address (1 host up) scanned in 78.28 seconds
