@@ -24,11 +24,11 @@ git clone https://github.com/gregkopels/code_task.git
 2. Run make from cloned folder
 # Make commands
 1. To create the container
-make
+- make
 2. To remove the container
-make prune
+- make prune
 3. To run test case
-make test 
+- make test 
 # Runs test case from command line
 - docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest test1.py
 - docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest testsuite.py
