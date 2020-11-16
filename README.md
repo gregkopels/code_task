@@ -30,9 +30,9 @@ make prune
 3. To run test case
 make test 
 # Runs test case from command line
-docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest test1.py
-docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest testsuite.py
-docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester python3 ssh_aws_server.py
+- docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest test1.py
+- docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest testsuite.py
+- docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester python3 ssh_aws_server.py
 # Runs test case from BASH
 run_test_suite.sh
 
