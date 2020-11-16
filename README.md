@@ -19,9 +19,12 @@ git clone https://github.com/gregkopels/code_task.git
  - make prune clears the setup
  - make test runs test case
 # Make commands
-make # creates container
-make prune # Removes container
-make test # Runs test case test1.py
+1. To create the container
+make
+2. To remove the container
+make prune
+3. To run test case
+make test 
 # Runs test case from command line
 docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest <test1.py> 
 docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester python3 <test1.py> 
