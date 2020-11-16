@@ -15,6 +15,7 @@ import re
 import os
 from modules import MatchedLine
 import yaml
+import json
 
 file = 'messages'
 
@@ -61,8 +62,9 @@ class FileParser:
         for match_line in self.matched_lines:
             temp_handler = str([self.file, match_line.line_num, self.get_positions(match_line.patterns_pos),self.pattern])
             #yaml_temp = {'File_Name': temp_handler[0], 'Line_num': temp_handler[1], 'Start_pos': temp_handler[2]}
-            yaml_out = yaml.dump(temp_handler, explicit_start=True, default_flow_style=False)
-            print(yaml_out)
+            json_out = json.dumps(temp_handler)
+            #yaml_out = yaml.dump(temp_handler, explicit_start=True, default_flow_style=False)
+            print(json_out)
             #print(file, match_line.line_num, self.get_positions(match_line.patterns_pos))
 
     def print_matched_lines(self):
