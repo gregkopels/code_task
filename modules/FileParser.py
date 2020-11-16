@@ -49,17 +49,17 @@ class FileParser:
         # Print output depends on the arguments used in the commmand
         # Standard = no arg
         for match_line in self.matched_lines:
-            print(file, match_line.line_num)
+            print(self.file, match_line.line_num)
 
     def print_color(self):
         # Print output for color =  -c/--color
         for match_line in self.matched_lines:
-            print(file, match_line.line_num, '\033[44;33m{}\033[m'.format(match_line.line))
+            print(self.file, match_line.line_num, '\033[44;33m{}\033[m'.format(match_line.line))
 
     def print_machine(self):
         # Print output for machine = -m/--machine
         for match_line in self.matched_lines:
-            temp_handler = str([file, match_line.line_num, self.get_positions(match_line.patterns_pos),self.pattern])
+            temp_handler = str([self.file, match_line.line_num, self.get_positions(match_line.patterns_pos),self.pattern])
             #yaml_temp = {'File_Name': temp_handler[0], 'Line_num': temp_handler[1], 'Start_pos': temp_handler[2]}
             yaml_out = yaml.dump(temp_handler, explicit_start=True, default_flow_style=False)
             print(yaml_out)

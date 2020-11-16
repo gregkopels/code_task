@@ -23,7 +23,7 @@ def main():
     parser.add_argument('-c', '--color', dest='color',  nargs='?', default=True, help="Colors output")
     parser.add_argument('-m', '--machine', dest='machine',  nargs='?', default=True, help="Prints in JSON")
     args = parser.parse_args()
-    log_message = args.arg1
+    file = args.arg1
     pattern = args.arg2
     if args.color is not True:
         output_format = 'color'
@@ -31,7 +31,7 @@ def main():
         output_format = 'machine'
     else:
         output_format = 'standard'
-    f_parser = FileParser.FileParser(log_message, pattern, output_format)
+    f_parser = FileParser.FileParser(file, pattern, output_format)
     f_parser.parse()
     f_parser.print_matched_lines()
 
