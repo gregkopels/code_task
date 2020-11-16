@@ -32,10 +32,8 @@ make test
 # Runs test case from command line
 docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest test1.py
 docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester pytest testsuite.py
-docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester python3 ssh_aws_servre.py
+docker run -it --rm -v `pwd`:`pwd` -w `pwd` tester python3 ssh_aws_server.py
 # Runs test case from BASH
 run_test_suite.sh
-# Main Regex script
-find_matched_lines.py
-python3 
+
 
