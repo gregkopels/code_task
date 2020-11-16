@@ -61,7 +61,8 @@ class FileParser:
             temp_list = temp_handler.strip('][').split(', ')
             keys = ['File_Name', 'Line_Num', 'Start_Pos', 'Pattern']
             dictionary = dict(zip(keys, temp_list))
-            print(dictionary)
+            dic_out = json.dumps(dictionary)
+            print(dic_out)
 
 
     def print_matched_lines(self):
