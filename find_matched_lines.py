@@ -18,8 +18,8 @@ import argparse
 def main():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('arg1', help="File name")
-    parser.add_argument('arg2', help="Enter text to be searched")
+    parser.add_argument('arg1', help="Enter a file name and path")
+    parser.add_argument('arg2', help="Enter text to be searched in the file")
     parser.add_argument('-c', '--color', dest='color',  nargs='?', default=True, help="Colors output")
     parser.add_argument('-m', '--machine', dest='machine',  nargs='?', default=True, help="Prints in JSON")
     args = parser.parse_args()
